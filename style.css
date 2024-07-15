@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 100%;
+}
+
+h1 {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#p11{
+    border: 2px solid black;
+    margin-left: 50%;
+    position: relative;
+    bottom: 17px;
+    text-align: center;
+    background-color: yellow;
+}
+#p12{
+    border: 2px solid black;
+    margin-left: 50%;
+    position: relative;
+    bottom: 17px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+#p13{
+    border: 2px solid black;
+    margin-left: 50%;
+    position: relative;
+    bottom: 17px;
+    text-align: center;
+    background-color: bisque;
+}
+section {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+    background-color: gray;
+}
+
+#p1 {
+    width: 300px;
+    height: 300px;
+}
+#p2 {
+    width: 50px;
+    height: 50px;
+}
+#p3 {
+    width: 30px;
+    height: 30px;
+}
+
+/***** Large device only (Desktop) *****/
+@media (min-width: 992px) and (max-width: 1920px){
+    #p1 {
+        width: 290px;
+        height: 200px;
+    }
+    #p2 {
+        width: 290px;
+        height: 200px;
+    }
+    #p3 {
+        width: 290px;
+        height: 200px;
+    }
+}
+
+/***** Medium device only (Tablet) *****/
+
+@media ( min-width: 768px) and ( max-width: 991px) {
+    #p1 {
+        width: 45%;
+        height: 200px;
+    }
+    #p2 {
+        width: 45%;
+        height: 200px;
+    }
+    #p3 {
+        width: 94%;
+        height: 200px;
+    }
+}
+
+/*****  Smaller device only ( Mobile Phone) *****/
+@media ( min-width: 59px) and ( max-width: 767px) {
+    #p1 {
+        width: 90%;
+        height: 200px;
+    }
+    #p2 {
+        width: 90%;
+        height: 200px;
+    }
+    #p3 {
+        width: 90%;
+        height: 200px;
+    }
+}
